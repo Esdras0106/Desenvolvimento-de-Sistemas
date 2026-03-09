@@ -137,7 +137,7 @@ public class ato1 {
                     System.out.println("Digite o nome do produto para excluir: ");
                     String nomeExcluir = sc.nextLine();
                     boolean encontradoExcluir = false;  
-                    for (int i = 1; i < qtd; i++) {
+                    for (int i = 0; i < qtd; i++) {
                         if (NomeProduto[i].equalsIgnoreCase(nomeExcluir)) {{
 
                             System.out.println("\tÍndice: " + i + " - Produto encontrado: " + NomeProduto[i] + " - Quantidade: " + quantidade[i]);
